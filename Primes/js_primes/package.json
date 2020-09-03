@@ -1,0 +1,32 @@
+{
+  "name": "js_primes",
+  "version": "1.0.0",
+  "description": "Prime number generator for JS",
+  "main": "primes.js",
+  "module": "primes.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnifeyMoloko/programming_challenges.git"
+  },
+  "author": "KnifeyMoloko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KnifeyMoloko/programming_challenges/issues"
+  },
+  "homepage": "https://github.com/KnifeyMoloko/programming_challenges#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
